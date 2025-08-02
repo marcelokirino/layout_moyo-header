@@ -1,9 +1,10 @@
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 500 ;
   --linkscolor: #00ACDC;
 
 }
+
 body {
   margin: 0;
 }
@@ -15,11 +16,13 @@ nav {
   margin: auto;
   height: 60px;
 }
+
 .logo {
   width: 40px;
   height: 40px;
   padding-left: 50px;
 }
+
 .nav__menu {
   list-style: none;
   display: flex;
@@ -34,9 +37,6 @@ nav {
   text-decoration: none;
   line-height: 60px;
   color: #000;
-}
-
-.nav__link a {
 }
 
 .nav__link:hover {
