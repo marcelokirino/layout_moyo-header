@@ -42,4 +42,5 @@ nav {
 .is-active::after {
   color:var(--linkscolor);
   border-bottom: 4px solid var(--linkscolor);
+  content: '';
 }
