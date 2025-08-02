@@ -1,8 +1,7 @@
 html {
   font-family: Roboto, sans-serif;
-  font-weight: 500 ;
+  font-weight: 500;
   --linkscolor: #00ACDC;
-
 }
 
 body {
@@ -44,7 +43,7 @@ nav {
 }
 
 .is-active::after {
-  color:var(--linkscolor);
-  border-bottom: 4px solid var(--linkscolor);
   content: '';
+  color: var(--linkscolor);
+  border-bottom: 4px solid var(--linkscolor);
 }
